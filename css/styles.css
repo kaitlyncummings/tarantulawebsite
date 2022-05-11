@@ -1,0 +1,249 @@
+/* General Styles */
+h1{
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    margin: auto;
+}
+h1 a{
+    color: #7A25BE;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+}
+h4 a{
+    color: #9abfeb;
+}
+nav{
+    background-color: #d85ff0e6;
+    text-align: center;
+}
+nav a{
+    color: #7A25BE;
+}
+body{
+    color: white;
+    background-color: #7A25BE;
+}
+img{
+    height: 30em;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+footer{
+    background-color: #d85ff0e6;
+    color: #7A25BE;
+    text-align: center;
+}
+footer a{
+    color: #7A25BE;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: currentColor;
+}
+#header{
+    background-image: url(../media/curlyMirror.jpg), url(../media/curly.jpg);
+    background-size: contain;
+    height: 10em;
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    background-color: #9abfeb;
+}
+p a{
+    color: #9abfeb;
+}
+section p{
+    text-align: center;
+}
+ul{
+    padding-left: 30%;
+}
+ul ul{
+    padding-left: 10%;
+}
+table{
+    padding-left: 35%;
+}
+
+/* Home Page */
+.home{
+    font-size: 2.5em;
+    text-align: center;
+    color: #9abfeb;
+}
+/* New World and Old World Map*/
+#map{
+    background-image: url(../media/Map.png);
+    background-size: contain;
+    height: 6.5em;
+    display: flex;
+    background-repeat: no-repeat;
+    font-size: 3em;
+    margin-top: .5em;
+    padding-top: 1.5em;
+    justify-content: center;
+    color: #d85ff0e6;
+    text-shadow: .1em .1em .2em black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Enclosure Page */
+h4{
+    font-size: 2em;
+    text-align: center;
+}
+h5{
+    font-size: 1.75em;
+    text-align: center;
+}
+iframe{
+    background-size: contain;
+    height: 410px;
+    background-repeat: no-repeat;
+    width: 728px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+#enclosure{
+    font-size: 2.5em;
+    text-align: center;
+    color: #9abfeb;
+}
+#tands, #aandf{
+    display: flex;
+    justify-content: space-around;
+}
+#terrestrial, #semiArboreal, #fossorial, #arboreal{
+    width: 40%;
+}
+
+/* Contact Page*/
+#contact{
+    font-size: 2.5em;
+    text-align: center;
+    color: #9abfeb;
+}
+@media (min-width: 0){
+    h1{
+        height: 2em;  
+        font-size: 2em;
+    }
+    #header{
+        height: 5em;
+    }
+    nav a{
+        font-size: .8em;
+    }
+    img{
+        height: 20em;
+    }
+    iframe{
+        height: 20em;
+        width: 100%;
+    }
+    h4{
+        font-size: 1.5em;
+    }
+    .home{
+        font-size: 2em;
+    }
+    #enclosure, #contact{
+        font-size: 2em;
+    }
+    #map{
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 600px){
+    h1{
+        height: 3em;  
+        font-size: 3em;
+        padding-top: .3em;
+    }
+    #header{
+        height: 10em;
+    }
+    nav a{
+        font-size: 1.5em;
+        padding: 1em;
+    }
+    img{
+        height: 30em;
+    }
+    iframe{
+        height: 30em;
+        width: 100%;
+    }
+    h4{
+        font-size: 3em;
+    }
+    .home{
+        font-size: 3em;
+    }
+    #enclosure, #contact{
+        font-size: 3em;
+    }
+    #map{
+        font-size: 3em;
+    }
+}
+@media (min-width: 1024px){
+    h1{
+        font-size: 5em;
+    }
+    #header{
+        height: 15em;
+    }
+    nav a{
+        font-size: 2em;
+        padding: 2em;
+    }
+    img{
+        height: 40em;
+    }
+    iframe{
+        height: 40em;
+        width: 100%;
+    }
+    h3{
+        font-size: 2em;
+    }
+    h4{
+        font-size: 3em;
+    }
+    ul{
+        font-size: 1.5em;
+    }
+    ul ul{
+        font-size: 1em;
+    }
+    table{
+        font-size: 2em;
+    }
+    .home{
+        font-size: 3em;
+    }
+    #enclosure, #contact{
+        font-size: 3em;
+    }
+    #map{
+        font-size: 4.5em;
+    }
+    p{
+        font-size: 1.5em;
+    }
+    form{
+        font-size: 1.5em;
+        padding-left: 40%;
+    }
+}

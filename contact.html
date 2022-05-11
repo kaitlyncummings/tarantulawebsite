@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K's Ts: Contact Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="tarantulafav.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <h1><a href="index.html">K's Ts</a></h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a> &nbsp;
+            <a href="newWorld.html">New World</a> &nbsp;
+            <a href="oldWorld.html">Old World</a> &nbsp;
+            <a href="enclosures.html">How to House</a> &nbsp;
+            <a href="contact.html">Contact Me</a> &nbsp;
+        </nav>
+    </header>
+    <main>
+        <h2 id="contact">Contact Me</h2>
+        <p>Required items are marked with an asterisk *</p>
+        <form method="post" action="mailto:kcummings@lcmail.lcsc.edu">
+            <label for="fname">* First Name: </label><input type="text" name="fname" id="fname" autofocus required><br>
+            <label for="lname">* Last Name: </label><input type="text" name="lname" id="lname" required><br>
+            <label for="email">* Email: </label><input type="email" name="email" id="email" required><br>
+            <label for="phone">&ensp; Phone: </label><input type="tel" name="phone" id="phone" maxlength="14"><br>
+            <label for="question">* Questions or Comments: </label><br>
+            <textarea name="questions" id="questions" cols="50" rows="10"></textarea><br>
+            <input type="submit" value="Submit">
+            <input type="reset"> 
+        </form>
+    </main>
+    <footer>
+        Copyright &copy; 2022 K's Ts<br>
+        <a href="mailto:kcummings@lcmail.lcsc.edu">Kcummings@lcmail.lcsc.edu</a>
+    </footer>
+</body>
